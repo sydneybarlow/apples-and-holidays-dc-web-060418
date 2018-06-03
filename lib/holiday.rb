@@ -51,7 +51,8 @@ def all_holidays_with_bbq(holiday_hash)
        return bbq_holidays.push(holiday_name)
      end
     end   
-  end   
+  end
+  bbq_holidays
 end
 
 # contacts.each do |person, data|
