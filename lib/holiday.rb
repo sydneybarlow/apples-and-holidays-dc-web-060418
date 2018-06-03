@@ -35,13 +35,6 @@ def all_supplies_in_holidays(holiday_hash)
   end
 end
 
-#.split string into an array 
-#.to_s symbol into a string
-
-# ["emperor", "joshua", "abraham", "norton"].inject do |full_name, name|
-#   "#{full_name.capitalize} #{name.capitalize}"
-# end
-
 
 def all_holidays_with_bbq(holiday_hash)
   bbq_holidays = []
@@ -54,16 +47,4 @@ def all_holidays_with_bbq(holiday_hash)
   end
   bbq_holidays
 end
-
-# contacts.each do |person, data|
-  
-#   data.each do |attribute, value|
- 
-#     if attribute == :favorite_icecream_flavors
-#       value.each do |flavor|
-#         puts "#{flavor}"
-#       end
-#     end
-#   end
-# end
 
